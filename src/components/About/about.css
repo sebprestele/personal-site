@@ -1,0 +1,14 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 2em;
+  background-color: white;
+  color: #121212;
+}
+
+.about-content {
+  width: 60%;
+  line-height: 2.5em;
+}

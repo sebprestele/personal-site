@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #14213d;
+  }
+  .header__title {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .nav__item {
+    padding: 1.2em;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-left: 1px solid #7309b9;
+  }
+  .nav :nth-child(1) {
+    border-left: none;
+  }
+  .nav__item:hover {
+    color: #7309b9;
+    cursor: pointer;
+  }
+  .nav__item a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Toggle button for dark-lightmode switch */
+ .toggle-light-dark {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+  } 
+
+  .toggle--icon:hover {
+    cursor: pointer;
+}
+
+.dark {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(4%) saturate(266%) hue-rotate(284deg) brightness(116%) contrast(100%);
+
+}
+
+
+  
+
+ 

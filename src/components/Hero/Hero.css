@@ -1,0 +1,18 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 3px solid #14213d;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__content--highlight {
+  display: inline;
+  color: #7309b9;
+  border-bottom: none;
+}
